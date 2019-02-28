@@ -1,0 +1,405 @@
+1544492933149	geckodriver	INFO	geckodriver 0.21.0
+1544492933162	geckodriver	INFO	Listening on 127.0.0.1:25939
+1544492936133	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.CWBUNqFBTdWm"
+1544492936611	Marionette	DEBUG	Received observer notification profile-after-change
+1544492936902	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544492936923	Marionette	DEBUG	Received observer notification command-line-startup
+1544492936923	Marionette	DEBUG	Received observer notification nsPref:changed
+1544492936923	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544492936965	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544492938776	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544492938776	Marionette	DEBUG	Waiting for delayed startup...
+1544492938847	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1544492938847	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544492938848	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1544492938848	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1544492938848	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1544492938849	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1544492938849	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544492938849	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1544492938849	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1544492938849	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1544492938849	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1544492938849	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1544492938850	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544492938850	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544492938850	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1544492938850	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1544492938850	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1544492938850	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1544492938850	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1544492938850	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1544492938850	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1544492938851	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1544492938851	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1544492938851	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1544492938851	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1544492938851	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1544492938887	Marionette	INFO	Listening on port 25947
+1544492938888	Marionette	DEBUG	Remote service is active
+1544492939347	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:25958
+1544492939348	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1544492939349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544492939389	Marionette	DEBUG	[6442450945] Frame script loaded
+1544492939395	Marionette	DEBUG	[6442450945] Frame script registered
+1544492939397	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"80b13ee8-c1d2-491e-a3f8-88979facab95","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1544492939414	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://sso.kedacom.com:8443/CasServer/login"}]
+1544492939422	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1544492941274	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1544492948662	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://sso.kedacom.com:8443/CasServer/login
+1544492954759	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://sso.kedacom.com:8443/CasServer/login
+1544492954760	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1544492954765	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"ui_username\"]"}]
+1544492954847	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8290cbfb-3600-49d3-9388-4b960ea218df"}}]
+1544492954899	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementSendKeys",{"id":"8290cbfb-3600-49d3-9388-4b960ea218df","text":"chen_qi@kedacom.com","value":["c","h","e","n","_","q","i","@","k","e","d","a","c","o","m",".","c","o","m"]}]
+1544492955649	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1544492955651	Marionette	TRACE	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"ui_password\"]"}]
+1544492955909	Marionette	TRACE	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e254d691-bc3f-4a8e-9a91-ed709a01b593"}}]
+1544492955914	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"e254d691-bc3f-4a8e-9a91-ed709a01b593","text":"123456zxcv","value":["1","2","3","4","5","6","z","x","c","v"]}]
+1544492955925	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1544492955927	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"ui_username\"]"}]
+1544492955942	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8290cbfb-3600-49d3-9388-4b960ea218df"}}]
+1544492955945	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"8290cbfb-3600-49d3-9388-4b960ea218df"}]
+1544492956156	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544492956157	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1544492956159	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"submit_login\"]"}]
+1544492956161	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9bfdf28e-bd84-4861-b8c3-2b637cd9f218"}}]
+1544492956163	Marionette	TRACE	0 -> [0,10,"WebDriver:ElementClick",{"id":"9bfdf28e-bd84-4861-b8c3-2b637cd9f218"}]
+1544492956171	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://sso.kedacom.com:8443/CasServer/login
+1544492957195	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://sso.kedacom.com:8443/CasServer/login
+1544492957196	Marionette	DEBUG	[6442450945] Received DOM event unload for https://sso.kedacom.com:8443/CasServer/login
+JavaScript warning: https://oa.kedacom.com/portal/js/common-min.js?v=20180810, line 329: unreachable code after return statement
+JavaScript warning: https://oa.kedacom.com/portal/js/common-min.js?v=20180810, line 342: unreachable code after return statement
+1544492966928	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/portal/main.do?r=-7505649752072058873
+1544492977900	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/portal/main.do?r=-7505649752072058873
+1544492977901	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1544492977904	Marionette	TRACE	0 -> [0,11,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544492977907	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/portal/main.do?r=-7505649752072058873
+1544492979072	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/portal/main.do?r=-7505649752072058873
+1544492979072	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/portal/main.do?r=-7505649752072058873
+1544492985553	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544492985598	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544492985599	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544492990572	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544492990573	Marionette	TRACE	0 <- [1,11,null,{"value":null}]
+1544492990580	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544492990584	Marionette	TRACE	0 <- [1,12,null,[{"element-6066-11e4-a52e-4f735466cecf":"cfa959f9-d097-4e43-920f-cf29641c83af"},{"element-6066-11e4-a52e-4f735466cecf":"ee83000e-23ec-4bbf-9756-4275be2f65ce"}]]
+1544492990586	Marionette	TRACE	0 -> [0,13,"WebDriver:ElementClick",{"id":"ee83000e-23ec-4bbf-9756-4275be2f65ce"}]
+1544492990806	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544492990806	Marionette	TRACE	0 <- [1,13,null,{"value":null}]
+1544492990808	Marionette	TRACE	0 -> [0,14,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544492990812	Marionette	TRACE	0 <- [1,14,null,[{"element-6066-11e4-a52e-4f735466cecf":"a0437f4c-4111-42f2-b817-de2e81ea25c4"},{"element-6066-11e4-a52e-4f735466c ... ecf":"6d40c9af-8063-4b8f-8bc9-ddf1aef64796"},{"element-6066-11e4-a52e-4f735466cecf":"61450646-9d27-4c6d-a7d5-207606803bc7"}]]
+1544492990814	Marionette	TRACE	0 -> [0,15,"WebDriver:ElementClick",{"id":"7cbe0f71-0c9d-4f8d-9f3c-7f3a4b2ac5ec"}]
+1544492991032	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544492991033	Marionette	TRACE	0 <- [1,15,null,{"value":null}]
+1544492994035	Marionette	TRACE	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544492994037	Marionette	TRACE	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1ab15a7c-4a70-43fa-9224-8b19de386699"}}]
+1544492994039	Marionette	TRACE	0 -> [0,17,"WebDriver:SwitchToFrame",{"element":"1ab15a7c-4a70-43fa-9224-8b19de386699"}]
+1544492994041	Marionette	TRACE	0 <- [1,17,null,{"value":null}]
+1544492994043	Marionette	TRACE	0 -> [0,18,"WebDriver:GetPageSource",{}]
+1544492994044	Marionette	TRACE	0 <- [1,18,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544492994046	Marionette	TRACE	0 -> [0,19,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544492994049	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544492994098	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544492994098	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544492994237	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544492994239	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544492994279	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544492997574	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544492997574	Marionette	TRACE	0 <- [1,19,null,{"value":null}]
+1544492997579	Marionette	TRACE	0 -> [0,20,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544492997592	Marionette	TRACE	0 <- [1,20,null,[{"element-6066-11e4-a52e-4f735466cecf":"3f6bfbb0-f3f5-45bb-adbd-a174df327c54"},{"element-6066-11e4-a52e-4f735466cecf":"ac802fb4-5274-4839-abfb-2504bd483689"}]]
+1544492997606	Marionette	TRACE	0 -> [0,21,"WebDriver:ElementClick",{"id":"ac802fb4-5274-4839-abfb-2504bd483689"}]
+1544492997826	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544492997827	Marionette	TRACE	0 <- [1,21,null,{"value":null}]
+1544492997828	Marionette	TRACE	0 -> [0,22,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544492997832	Marionette	TRACE	0 <- [1,22,null,[{"element-6066-11e4-a52e-4f735466cecf":"4ac3ed26-3e6f-4a0c-9592-4f714e56546f"},{"element-6066-11e4-a52e-4f735466c ... ecf":"f9843b11-af38-4889-bb4e-413c8038603d"},{"element-6066-11e4-a52e-4f735466cecf":"dd123f58-c7d0-49a9-b237-469a83333c69"}]]
+1544492997834	Marionette	TRACE	0 -> [0,23,"WebDriver:ElementClick",{"id":"35c036b6-0c7a-45d2-9341-08a675360c44"}]
+1544492998047	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544492998048	Marionette	TRACE	0 <- [1,23,null,{"value":null}]
+1544493001049	Marionette	TRACE	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493001058	Marionette	TRACE	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9712bfdd-b6c6-4d4e-9c5a-3da83c89bf88"}}]
+1544493001059	Marionette	TRACE	0 -> [0,25,"WebDriver:SwitchToFrame",{"element":"9712bfdd-b6c6-4d4e-9c5a-3da83c89bf88"}]
+1544493001061	Marionette	TRACE	0 <- [1,25,null,{"value":null}]
+1544493001063	Marionette	TRACE	0 -> [0,26,"WebDriver:GetPageSource",{}]
+1544493001064	Marionette	TRACE	0 <- [1,26,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493001065	Marionette	TRACE	0 -> [0,27,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493001068	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493001139	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493001139	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493001262	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493001832	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544493001865	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493004366	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493004367	Marionette	TRACE	0 <- [1,27,null,{"value":null}]
+1544493004370	Marionette	TRACE	0 -> [0,28,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493004373	Marionette	TRACE	0 <- [1,28,null,[{"element-6066-11e4-a52e-4f735466cecf":"ed2ceb58-a225-4cf9-8e36-5b6dc594716d"},{"element-6066-11e4-a52e-4f735466cecf":"3ded2546-4d24-4dba-9959-9f09b886555f"}]]
+1544493004376	Marionette	TRACE	0 -> [0,29,"WebDriver:ElementClick",{"id":"3ded2546-4d24-4dba-9959-9f09b886555f"}]
+1544493004587	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493004587	Marionette	TRACE	0 <- [1,29,null,{"value":null}]
+1544493004589	Marionette	TRACE	0 -> [0,30,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544493004592	Marionette	TRACE	0 <- [1,30,null,[{"element-6066-11e4-a52e-4f735466cecf":"d60060d4-bdf8-4536-9c2a-c1c0104a9462"},{"element-6066-11e4-a52e-4f735466c ... ecf":"28b0681e-b1dc-4136-aa68-0f7dca88d7be"},{"element-6066-11e4-a52e-4f735466cecf":"4fb093c2-77b7-4f39-98ed-3474b03fc5fe"}]]
+1544493004594	Marionette	TRACE	0 -> [0,31,"WebDriver:ElementClick",{"id":"bd9fe7c1-4b16-4190-8b6e-ac710bb7c410"}]
+1544493004806	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493004806	Marionette	TRACE	0 <- [1,31,null,{"value":null}]
+1544493007808	Marionette	TRACE	0 -> [0,32,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493007823	Marionette	TRACE	0 <- [1,32,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"93b95f96-fbd2-494f-8598-d4c1ddc4e753"}}]
+1544493007825	Marionette	TRACE	0 -> [0,33,"WebDriver:SwitchToFrame",{"element":"93b95f96-fbd2-494f-8598-d4c1ddc4e753"}]
+1544493007827	Marionette	TRACE	0 <- [1,33,null,{"value":null}]
+1544493007828	Marionette	TRACE	0 -> [0,34,"WebDriver:GetPageSource",{}]
+1544493007829	Marionette	TRACE	0 <- [1,34,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493007831	Marionette	TRACE	0 -> [0,35,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493007835	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493007879	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493007880	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493007994	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544493008026	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493008027	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493011910	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493011911	Marionette	TRACE	0 <- [1,35,null,{"value":null}]
+1544493011914	Marionette	TRACE	0 -> [0,36,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493011943	Marionette	TRACE	0 <- [1,36,null,[{"element-6066-11e4-a52e-4f735466cecf":"acb5616d-79dd-49a8-9484-5a400005f6ab"},{"element-6066-11e4-a52e-4f735466cecf":"0df24201-b4de-4f5b-bcf6-3f4afb3a2fcf"}]]
+1544493011949	Marionette	TRACE	0 -> [0,37,"WebDriver:ElementClick",{"id":"0df24201-b4de-4f5b-bcf6-3f4afb3a2fcf"}]
+1544493012167	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493012167	Marionette	TRACE	0 <- [1,37,null,{"value":null}]
+1544493012169	Marionette	TRACE	0 -> [0,38,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544493012174	Marionette	TRACE	0 <- [1,38,null,[{"element-6066-11e4-a52e-4f735466cecf":"5a166bad-d87f-4886-b515-d6d2e21e8107"},{"element-6066-11e4-a52e-4f735466c ... ecf":"3d652f92-7015-4b8d-bf07-a1ded1ae95b8"},{"element-6066-11e4-a52e-4f735466cecf":"34753749-0e52-45b1-8a98-d48c730e20c7"}]]
+1544493012177	Marionette	TRACE	0 -> [0,39,"WebDriver:ElementClick",{"id":"4101863e-12e5-4202-87fd-65fb155fffe6"}]
+1544493012428	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493012429	Marionette	TRACE	0 <- [1,39,null,{"value":null}]
+1544493015432	Marionette	TRACE	0 -> [0,40,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493015438	Marionette	TRACE	0 <- [1,40,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"662043c2-7081-41a4-af91-c6ebbb5e3885"}}]
+1544493015440	Marionette	TRACE	0 -> [0,41,"WebDriver:SwitchToFrame",{"element":"662043c2-7081-41a4-af91-c6ebbb5e3885"}]
+1544493015443	Marionette	TRACE	0 <- [1,41,null,{"value":null}]
+1544493015445	Marionette	TRACE	0 -> [0,42,"WebDriver:GetPageSource",{}]
+1544493015446	Marionette	TRACE	0 <- [1,42,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493015447	Marionette	TRACE	0 -> [0,43,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493015451	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493015494	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493015494	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493015626	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544493015660	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493015661	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493017824	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1544493018330	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493018331	Marionette	TRACE	0 <- [1,43,null,{"value":null}]
+1544493018334	Marionette	TRACE	0 -> [0,44,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493018337	Marionette	TRACE	0 <- [1,44,null,[{"element-6066-11e4-a52e-4f735466cecf":"80a3d15a-a0c6-4a1c-b0a7-2606531e3176"},{"element-6066-11e4-a52e-4f735466cecf":"48b48812-0a83-4737-9d4b-be174d44e5a2"}]]
+1544493018340	Marionette	TRACE	0 -> [0,45,"WebDriver:ElementClick",{"id":"48b48812-0a83-4737-9d4b-be174d44e5a2"}]
+1544493018557	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493018557	Marionette	TRACE	0 <- [1,45,null,{"value":null}]
+1544493018559	Marionette	TRACE	0 -> [0,46,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544493018564	Marionette	TRACE	0 <- [1,46,null,[{"element-6066-11e4-a52e-4f735466cecf":"a4acca3a-b20d-4ed0-8548-2161605c23fe"},{"element-6066-11e4-a52e-4f735466c ... ecf":"27f85e62-47fc-4b1f-bb8c-fa78d99e6e2e"},{"element-6066-11e4-a52e-4f735466cecf":"48cdaffa-efd6-4fa5-9fa9-7f412a4e5df4"}]]
+1544493018566	Marionette	TRACE	0 -> [0,47,"WebDriver:ElementClick",{"id":"f9df7fcd-06c4-44b2-b766-a1b6f2e86173"}]
+1544493018779	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493018780	Marionette	TRACE	0 <- [1,47,null,{"value":null}]
+1544493021782	Marionette	TRACE	0 -> [0,48,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493021819	Marionette	TRACE	0 <- [1,48,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0f93d40c-4246-4e8d-ba80-c766efb8f7f0"}}]
+1544493021822	Marionette	TRACE	0 -> [0,49,"WebDriver:SwitchToFrame",{"element":"0f93d40c-4246-4e8d-ba80-c766efb8f7f0"}]
+1544493021825	Marionette	TRACE	0 <- [1,49,null,{"value":null}]
+1544493021828	Marionette	TRACE	0 -> [0,50,"WebDriver:GetPageSource",{}]
+1544493021829	Marionette	TRACE	0 <- [1,50,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493021832	Marionette	TRACE	0 -> [0,51,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493021837	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493021888	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493021888	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493022046	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493022542	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544493022585	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493025215	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493025216	Marionette	TRACE	0 <- [1,51,null,{"value":null}]
+1544493025218	Marionette	TRACE	0 -> [0,52,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493025221	Marionette	TRACE	0 <- [1,52,null,[{"element-6066-11e4-a52e-4f735466cecf":"5f29d1a1-5780-488b-9d32-2c576ad2e940"},{"element-6066-11e4-a52e-4f735466cecf":"7a00878a-211f-4e35-bd66-3fb370030285"}]]
+1544493025223	Marionette	TRACE	0 -> [0,53,"WebDriver:ElementClick",{"id":"7a00878a-211f-4e35-bd66-3fb370030285"}]
+1544493025439	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493025440	Marionette	TRACE	0 <- [1,53,null,{"value":null}]
+1544493025442	Marionette	TRACE	0 -> [0,54,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544493025447	Marionette	TRACE	0 <- [1,54,null,[{"element-6066-11e4-a52e-4f735466cecf":"4263c3f0-03dc-440d-b823-3e11ab7e1159"},{"element-6066-11e4-a52e-4f735466c ... ecf":"d6a36243-e30d-4e1c-9227-f844da765f73"},{"element-6066-11e4-a52e-4f735466cecf":"5a15ad7a-f189-444e-a3f9-1ff243db32e0"}]]
+1544493025449	Marionette	TRACE	0 -> [0,55,"WebDriver:ElementClick",{"id":"82db2e56-ea72-4f43-82fd-854b2f87e038"}]
+1544493025663	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493025664	Marionette	TRACE	0 <- [1,55,null,{"value":null}]
+1544493028666	Marionette	TRACE	0 -> [0,56,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493028703	Marionette	TRACE	0 <- [1,56,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fd9e8bf6-0130-40bd-bb6c-0b3d7890eca0"}}]
+1544493028705	Marionette	TRACE	0 -> [0,57,"WebDriver:SwitchToFrame",{"element":"fd9e8bf6-0130-40bd-bb6c-0b3d7890eca0"}]
+1544493028707	Marionette	TRACE	0 <- [1,57,null,{"value":null}]
+1544493028709	Marionette	TRACE	0 -> [0,58,"WebDriver:GetPageSource",{}]
+1544493028710	Marionette	TRACE	0 <- [1,58,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493028712	Marionette	TRACE	0 -> [0,59,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493028715	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493028761	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493028762	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493028888	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493028888	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544493028924	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493030145	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493030146	Marionette	TRACE	0 <- [1,59,null,{"value":null}]
+1544493030150	Marionette	TRACE	0 -> [0,60,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493030154	Marionette	TRACE	0 <- [1,60,null,[{"element-6066-11e4-a52e-4f735466cecf":"14509dfd-7e60-47ef-b831-482141399403"},{"element-6066-11e4-a52e-4f735466cecf":"2bf7a850-44ff-4b43-a0c2-84080f9245f6"}]]
+1544493030157	Marionette	TRACE	0 -> [0,61,"WebDriver:ElementClick",{"id":"2bf7a850-44ff-4b43-a0c2-84080f9245f6"}]
+1544493030377	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493030377	Marionette	TRACE	0 <- [1,61,null,{"value":null}]
+1544493030379	Marionette	TRACE	0 -> [0,62,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544493030383	Marionette	TRACE	0 <- [1,62,null,[{"element-6066-11e4-a52e-4f735466cecf":"a7866635-ff0b-4267-94ba-86520e4903f7"},{"element-6066-11e4-a52e-4f735466c ... ecf":"9db21578-057a-4abd-a587-a0addc6ba49e"},{"element-6066-11e4-a52e-4f735466cecf":"09f758c4-cf0c-4e69-9eff-42dd1b983f40"}]]
+1544493030384	Marionette	TRACE	0 -> [0,63,"WebDriver:ElementClick",{"id":"24a979b3-b2d1-44dd-91e4-6060a7114a8c"}]
+1544493030598	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493030598	Marionette	TRACE	0 <- [1,63,null,{"value":null}]
+1544493033600	Marionette	TRACE	0 -> [0,64,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493033645	Marionette	TRACE	0 <- [1,64,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fce13c83-cfc7-469c-9bc8-b6ea7225d45a"}}]
+1544493033647	Marionette	TRACE	0 -> [0,65,"WebDriver:SwitchToFrame",{"element":"fce13c83-cfc7-469c-9bc8-b6ea7225d45a"}]
+1544493033649	Marionette	TRACE	0 <- [1,65,null,{"value":null}]
+1544493033650	Marionette	TRACE	0 -> [0,66,"WebDriver:GetPageSource",{}]
+1544493033651	Marionette	TRACE	0 <- [1,66,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493033653	Marionette	TRACE	0 -> [0,67,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493033656	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493034322	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493034322	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493034447	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493034697	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+JavaScript error: https://oa.kedacom.com/report/js/jquery-1.8.3.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+1544493034735	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493039134	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493039135	Marionette	TRACE	0 <- [1,67,null,{"value":null}]
+1544493039138	Marionette	TRACE	0 -> [0,68,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493039192	Marionette	TRACE	0 <- [1,68,null,[{"element-6066-11e4-a52e-4f735466cecf":"d45f1201-870a-4227-b7d1-7ad91e332f9e"},{"element-6066-11e4-a52e-4f735466cecf":"d818b94b-5e4e-4510-9f34-c54b8bad12a3"}]]
+1544493039194	Marionette	TRACE	0 -> [0,69,"WebDriver:ElementClick",{"id":"d818b94b-5e4e-4510-9f34-c54b8bad12a3"}]
+1544493039410	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493039411	Marionette	TRACE	0 <- [1,69,null,{"value":null}]
+1544493039428	Marionette	TRACE	0 -> [0,70,"WebDriver:FindElements",{"using":"css selector","value":"span"}]
+1544493039432	Marionette	TRACE	0 <- [1,70,null,[{"element-6066-11e4-a52e-4f735466cecf":"e3916c2a-faa8-4961-8d6d-e3e8008478da"},{"element-6066-11e4-a52e-4f735466c ... ecf":"dd16712b-8c62-459d-8847-0afa0b5cdb6b"},{"element-6066-11e4-a52e-4f735466cecf":"da131010-4ff5-477f-98f7-c8b16e1ef71e"}]]
+1544493039434	Marionette	TRACE	0 -> [0,71,"WebDriver:ElementClick",{"id":"a8083dbc-5303-47a6-93e1-416d03c59dda"}]
+1544493039651	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1544493039652	Marionette	TRACE	0 <- [1,71,null,{"value":null}]
+1544493042653	Marionette	TRACE	0 -> [0,72,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"kdUIFrameWindow\"]"}]
+1544493042655	Marionette	TRACE	0 <- [1,72,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e10a6d6e-8708-4a50-bbc1-231b06600cea"}}]
+1544493042657	Marionette	TRACE	0 -> [0,73,"WebDriver:SwitchToFrame",{"element":"e10a6d6e-8708-4a50-bbc1-231b06600cea"}]
+1544493042659	Marionette	TRACE	0 <- [1,73,null,{"value":null}]
+1544493042661	Marionette	TRACE	0 -> [0,74,"WebDriver:GetPageSource",{}]
+1544493042662	Marionette	TRACE	0 <- [1,74,null,{"value":"<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n    <title>03report_sumForHour</title>\n    <meta h ... amp;inter=zh_CN&amp;__fr_locale__=&amp;__v__=2018.06.19.13.53.19.823&amp;jsVersion=1544421911242\"></script></head></html>"}]
+1544493042663	Marionette	TRACE	0 -> [0,75,"WebDriver:Navigate",{"url":"https://oa.kedacom.com/report/platform/console/main.do"}]
+1544493042665	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://oa.kedacom.com/report/platform/console/main.do
+1544493042720	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://oa.kedacom.com/report/platform/console/main.do
+1544493042721	Marionette	DEBUG	[6442450945] Received DOM event unload for https://oa.kedacom.com/report/platform/console/main.do
+1544493044571	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493045843	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://oa.kedacom.com/report/platform/console/main.do
+1544493045887	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed
+1544493047009	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://oa.kedacom.com/report/platform/console/main.do
+1544493047009	Marionette	TRACE	0 <- [1,75,null,{"value":null}]
+1544493047012	Marionette	TRACE	0 -> [0,76,"WebDriver:FindElements",{"using":"css selector","value":".l-accordion-header-inner"}]
+1544493047013	Marionette	TRACE	0 <- [1,76,null,[]]
+1544493068722	Marionette	DEBUG	Closed connection 0
+[Child 12004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1544493069194	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1544493069194	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1544493069194	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1544493069195	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1544493069195	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1544493069195	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1544493069195	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1544493069195	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1544493069195	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1544493069195	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1544493069195	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1544493069196	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1544493069196	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1544493069196	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1544493069196	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1544493069196	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1544493069196	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1544493069196	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1544493069196	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1544493069197	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1544493069197	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1544493069197	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1544493069197	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1544493069197	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1544493069197	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1544493069197	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1544493069197	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1544493069197	Marionette	INFO	Stopped listening on port 25947
+1544493069197	Marionette	DEBUG	Remote service is inactive
+ermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611886	addons.xpi	DEBUG	Updating XPIState for {"id":"coba@mozilla.com.cn","syncGUID":"{7ab5cdea-cae8-4e1f-b9ad-fd874e926f03}","location":"app-profile","version":"4.57","type":"webextension","updateURL":"https://addons.firefox.com.cn/chinaedition/addons/updates.json","optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"COBA","description":"China Online Banking Assistant","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531365016441,"updateDate":1531378608856,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.IGbQl69bvfbi\\extensions\\coba@mozilla.com.cn.xpi","skinnable":false,"size":55643,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[{"name":"COBA","description":"China Online Banking Assistant","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["en-US"]},{"name":"网银支付助手","description":"为火狐用户提供支付帮助","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["zh-CN"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"54.0","maxVersion":null}],"targetPlatforms":[],"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":["downloads","nativeMessaging","storage","webRequest","webRequestBlocking"],"origins":["<all_urls>"]},"icons":{"48":"icons/icon-48.png","64":"icons/icon-64.png"},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611886	addons.xpi	DEBUG	Updating XPIState for {"id":"easyscreenshot@mozillaonline.com","syncGUID":"{ee5cbad9-90ae-4a13-ac22-acb24f6e1c5c}","location":"app-profile","version":"3.57","type":"webextension","updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Easy Screenshot","description":"You can capture a screen shot by selecting an area or capture the whole/visible webpage. Then edit and save it as an image file.","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531365016498,"updateDate":1531378608868,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.IGbQl69bvfbi\\extensions\\easyscreenshot@mozillaonline.com.xpi","skinnable":false,"size":160220,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[{"name":"Easy Screenshot","description":"You can capture a screen shot by selecting an area or capture the whole/visible webpage. Then edit and save it as an image file.","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["en-US"]},{"name":"Easy Screenshot","description":"Вы можете сделать снимок экрана, выбрав область или захватить всю / видимую веб-страницу. Затем отредактировать и сохранить его в виде файла изображения.","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["ru-RU"]},{"name":"网页截图","description":"方便的截图工具，支持任意选定区域截图、全网页截图等多种截图方式，并提供必要的图片编辑功能。","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["zh-CN"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"57.0","maxVersion":null}],"targetPlatforms":[],"signedState":2,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":["clipboardWrite","downloads","notifications","storage"],"origins":["<all_urls>","*://*/*"]},"icons":{"48":"icons/icon-48.png","64":"icons/icon-64.png"},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611886	addons.xpi	DEBUG	Updating XPIState for {"id":"wx-assistant@mozillaonline.com","syncGUID":"{133cd88d-7dcc-4120-b656-361fe0185de5}","location":"app-profile","version":"2.0.2","type":"webextension","updateURL":"https://addons.firefox.com.cn/chinaedition/addons/updates.json","optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"WeChat Helper by MoCoCN","description":"Access Web WeChat by one click","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531365016546,"updateDate":1531378608900,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.IGbQl69bvfbi\\extensions\\wx-assistant@mozillaonline.com.xpi","skinnable":false,"size":23502,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[{"name":"WeChat Helper by MoCoCN","description":"Access Web WeChat by one click","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["en-US"]},{"name":"微信网页版助手","description":"一键打开微信网页版，同时在微信有新消息时给出及时的消息提醒","creator":null,"homepageURL":"http://www.firefox.com.cn/","developers":null,"translators":null,"contributors":null,"locales":["zh-CN"]}],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"48.0","maxVersion":null}],"targetPlatforms":[],"signedState":1,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":{"permissions":[],"origins":["https://wx.qq.com/*"]},"icons":{"32":"icons/icon-32.png","64":"icons/icon-64.png"},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611886	addons.xpi	DEBUG	Updating XPIState for {"id":"cehomepage@mozillaonline.com","syncGUID":"{ae47708e-bb8f-4dd1-9054-abaa923f36f7}","location":"app-profile","version":"2.61.1","type":"extension","updateURL":"https://addons.firefox.com.cn/chinaedition/addons/updates.json?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&status=%ITEM_STATUS%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%&locale=%APP_LOCALE%&currentAppVersion=%CURRENT_APP_VERSION%&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE%","optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Homepage","description":"Customizied Home Page for Firefox","creator":"Mozilla Online Limited","homepageURL":"http://www.firefox.com.cn/","contributors":["Leding Li","Ray Cheung","Xuan Xie","jiangwei1212@gmail.com","Wennan Zhu","Amax Guan"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531365016124,"updateDate":1531378608822,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.IGbQl69bvfbi\\extensions\\cehomepage@mozillaonline.com.xpi","skinnable":false,"size":203379,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[{"locales":["zh-CN"],"name":"火狐主页","description":"火狐定制主页，包括最近访问页面、最常访问页面以及新标签页等","creator":"Mozilla Online Limited","homepageURL":"http://www.firefox.com.cn/"}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0","maxVersion":"61.*"}],"targetPlatforms":[],"signedState":4,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{"32":"icon.png","48":"icon.png","64":"icon64.png"},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"cpmanager@mozillaonline.com","syncGUID":"{e742a077-27fe-40fe-adfd-39093954722d}","location":"app-profile","version":"3.61.1","type":"extension","updateURL":"https://addons.firefox.com.cn/chinaedition/addons/updates.json?reqVersion=%REQ_VERSION%&id=%ITEM_ID%&version=%ITEM_VERSION%&maxAppVersion=%ITEM_MAXAPPVERSION%&status=%ITEM_STATUS%&appID=%APP_ID%&appVersion=%APP_VERSION%&appOS=%APP_OS%&appABI=%APP_ABI%&locale=%APP_LOCALE%&currentAppVersion=%CURRENT_APP_VERSION%&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE%","optionsURL":"options.html","optionsType":5,"aboutURL":null,"defaultLocale":{"name":"Addons Manager","description":"To manage the addons package in Firefox.","creator":"Mozilla Online Limited","homepageURL":"http://www.firefox.com.cn/","contributors":["Conchshell","Ray Cheung","Xuan Xie","Jiao Feng","Rui You"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531365016470,"updateDate":1531378608862,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.IGbQl69bvfbi\\extensions\\cpmanager@mozillaonline.com.xpi","skinnable":false,"size":152277,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[{"locales":["zh-CN"],"name":"附加组件管理器","description":"用来管理火狐的附加组件系统。","creator":"Mozilla Online Limited","homepageURL":"http://www.firefox.com.cn/"}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"56.0","maxVersion":"61.*"}],"targetPlatforms":[],"signedState":4,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"activity-stream@mozilla.org","syncGUID":"{b14de7d2-6148-42c4-9c26-7ecd5c286d66}","location":"app-system-defaults","version":"2018.06.29.1026-fa231556","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Activity Stream","description":"A rich visual history feed and a reimagined home page make it easier than ever to find exactly what you're looking for in Firefox.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214702277,"updateDate":1531214702277,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\activity-stream@mozilla.org.xpi","skinnable":false,"size":2732420,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{cda1cb49-b883-4cc8-b052-0ac13492fcd3}","location":"app-system-defaults","version":"2.0","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214701193,"updateDate":1531214701193,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","skinnable":false,"size":8425,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{4775682a-df78-4189-9582-6f321adba980}","location":"app-system-defaults","version":"1.0.5","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214701138,"updateDate":1531214701138,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","skinnable":false,"size":855890,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{877aeebb-ac57-473a-b072-c66a72c248ad}","location":"app-system-defaults","version":"0.9.7","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214701052,"updateDate":1531214701052,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\followonsearch@mozilla.com.xpi","skinnable":false,"size":17903,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"66.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"formautofill@mozilla.org","syncGUID":"{c4ecf7d1-839b-43a7-92f6-38f283a15c42}","location":"app-system-defaults","version":"1.0","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Form Autofill","description":"Autofill forms with saved profiles","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214700999,"updateDate":1531214700999,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\formautofill@mozilla.org.xpi","skinnable":false,"size":465038,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"onboarding@mozilla.org","syncGUID":"{8336c733-f633-4e63-932e-fb0edf56376e}","location":"app-system-defaults","version":"1.0","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Photon onboarding","description":"Photon onboarding","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214700820,"updateDate":1531214700820,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\onboarding@mozilla.org.xpi","skinnable":false,"size":564185,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{1ffaac47-e31a-429d-b25f-91aad8165ae4}","location":"app-system-defaults","version":"32.1.0","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://screenshots.firefox.com/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214700769,"updateDate":1531214700769,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","skinnable":false,"size":1002421,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"57.0a1","maxVersion":"*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat-reporter@mozilla.org","syncGUID":"{e4a4b820-070f-41fc-b70b-e729a6b8ee1a}","location":"app-system-defaults","version":"1.0.0","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"WebCompat Reporter","description":"Report site compatibility issues on webcompat.com.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214705072,"updateDate":1531214705072,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat-reporter@mozilla.org.xpi","skinnable":false,"size":12706,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{a4cdaa36-e19b-470e-8882-8aed04bf6882}","location":"app-system-defaults","version":"2.0","type":"extension","updateURL":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1531214700663,"updateDate":1531214700663,"applyBackgroundUpdates":1,"bootstrap":true,"path":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"size":13138,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"61.0.1","maxVersion":"61.*"},{"id":"{aa3c5121-dab2-40e2-81ca-7ea25febc110}","minVersion":"61.0.1","maxVersion":"61.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":true,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null,"blocklistState":0,"blocklistURL":null,"startupData":null}
+1531378611887	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1531378611887	addons.xpi-utils	DEBUG	Updating add-on states
+1531378612020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531378612089	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 26
+JavaScript warning: https://oa.kedacom.com/portal/js/common-min.js?v=20180410, line 325: unreachable code after return statement
+JavaScript warning: https://oa.kedacom.com/portal/js/common-min.js?v=20180410, line 338: unreachable code after return statement
+1531378623346	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1531378623347	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1531378623347	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 32.1.0
+1531378623348	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1531378623349	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1531378623349	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.7
+1531378623350	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1531378623350	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1531378623350	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+[[Child 8600, Chrome_ChildThre[Parent 3724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2D0107,name=PContent::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+1531378623571	addons.manager	DEBUG	shutdown
+1531378623572	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1531378623572	addons.xpi	DEBUG	shutdown
+1531378623572	addons.xpi-utils	DEBUG	shutdown
+1531378623572	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1531378623572	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1531378623572	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1531378623576	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nc provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

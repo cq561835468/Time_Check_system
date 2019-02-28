@@ -1,0 +1,25 @@
+2018-07-09 10:39:43,997 login_oa.py [line:57 ][TimeWork][DEBUG] 开始登陆oa
+2018-07-09 10:39:44,492 login_oa.py [line:60 ][TimeWork][DEBUG] 登陆oa完成
+2018-07-09 10:44:26,913 login_oa.py [line:57 ][TimeWork][DEBUG] 开始登陆oa
+2018-07-09 10:44:27,339 login_oa.py [line:60 ][TimeWork][DEBUG] 登陆oa完成
+2018-07-09 10:53:08,236 login_oa.py [line:57 ][TimeWork][DEBUG] 开始登陆oa
+2018-07-09 10:53:08,931 login_oa.py [line:60 ][TimeWork][DEBUG] 登陆oa完成
+2018-07-09 11:12:23,051 login_oa.py [line:66 ][TimeWork][DEBUG] ['chen_qi@kedacom.com', 'qweasdzxc789']
+2018-07-09 11:12:27,141 login_oa.py [line:66 ][TimeWork][DEBUG] ['chen_qi@kedacom.com', 'qweasdzxc789']
+2018-07-09 11:12:27,141 login_oa.py [line:68 ][TimeWork][DEBUG] ['\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e2', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e3', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e4']
+2018-07-09 17:12:21,299 login_oa.py [line:65 ][TimeWork][DEBUG] ['chen_qi@kedacom.com', 'qweasdzxc789']
+2018-07-09 17:12:21,321 login_oa.py [line:67 ][TimeWork][DEBUG] ['\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e2', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e3', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e4']
+2018-07-09 17:12:21,321 login_oa.py [line:57 ][TimeWork][DEBUG] 开始登陆oa
+2018-07-09 17:12:58,796 login_oa.py [line:65 ][TimeWork][DEBUG] ['chen_qi@kedacom.com', 'qweasdzxc789']
+2018-07-09 17:12:58,796 login_oa.py [line:67 ][TimeWork][DEBUG] ['\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e2', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e3', '\xe6\x9d\x8e\xe6\xb4\xaa\xe9\x9c\x9e4']
+2018-07-09 17:12:58,796 login_oa.py [line:57 ][TimeWork][DEBUG] 开始登陆oa
+2018-07-09 17:13:01,358 login_oa.py [line:60 ][TimeWork][DEBUG] 登陆oa完成
+2018-07-09 17:13:40,257 login_oa.py [line:57 ][TimeWork][DEBUG] 开始登陆oa
+2018-07-09 17:13:40,750 login_oa.py [line:60 ][TimeWork][DEBUG] 登陆oa完成
+2018-07-09 17:27:42,082 Time_Select.py[line:12 ][TimeWork][DEBUG] i am Time_Select
+2018-07-09 17:27:45,479 Time_Select.py[line:12 ][TimeWork][DEBUG] i am Time_Select
+2018-07-09 17:28:45,322 Time_Select.py[line:12 ][TimeWork][DEBUG] 11111111
+2018-07-12 11:24:11,269 Get_TIme_Work.py[line:139][TimeWork][DEBUG] 数据导出完成
+2018-07-12 11:24:48,555 Get_TIme_Work.py[line:139][TimeWork][DEBUG] 数据导出完成
+2018-07-12 14:48:27,973 Get_TIme_Work.py[line:139][TimeWork][DEBUG] 数据导出完成
+2018-07-12 14:57:12,482 Get_TIme_Work.py[line:139][TimeWork][DEBUG] 数据导出完成
